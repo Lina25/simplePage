@@ -1,44 +1,97 @@
 body {
   padding-top: 20px;
+  font-family: "MyriadProRegular";
+}
+
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MyriadProBold";
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"), url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"), url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+p,
+li {
+  font-family: "MyriadProRegular";
+  font-size: 14px;
+}
+
+.pColor {
+  color: #3d6cb0;
+  font-family: "MyriadProBold";
 }
 
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
-  width: 70px;
-  height: 70px;
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   background: #FFF;
   position: relative;
-  border: 2px solid #0B3C5D;
+  border: 2px solid #3d6cb0;
 }
 
 .inner-circle {
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
-  background: #0B3C5D;
+  background: #3d6cb0;
   top: 50%;
   left: 50%;
-  margin: -30px 0px 0px -30px;
+  margin: -140px 0px 0px -140px;
+}
+
+.contact {
+  line-height: 44px;
+}
+
+.software {
+  line-height: 30px;
 }
 
 .education {
-  color: #062F4F;
+  color: #3d6cb0;
+  font-family: "MyriadProBold";
   font-size: 32px;
+  margin-bottom: 20px;
 }
 
-.education:after {
-  background-color: #0B3C5D;
-  content: "";
+.line {
+  overflow: hidden;
+}
+
+.line:before,
+.line:after {
+  content: '';
   display: inline-block;
-  height: 3px;
-  position: relative;
   vertical-align: middle;
-  width: 40%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 3px;
+  background: #3d6cb0;
+  border: solid #FFF;
+  border-width: 0 10px;
+}
+
+.line:before {
+  margin-left: -100%;
+}
+
+.line:after {
+  margin-right: -100%;
 }
 
 .education-list {
@@ -47,16 +100,18 @@ body {
 }
 
 .edu-type-1 {
-  font-size: 20px;
+  font-family: "MyriadProRegular";
+  font-size: 15px;
 }
 
 .name {
-  font-size: 36px;
+  font-family: "MyriadProRegular";
+  font-size: 28px;
 }
 
 div.stars {
-  width: 270px;
   display: inline-block;
+  margin-left: 50px;
 }
 
 input.star {
@@ -65,16 +120,17 @@ input.star {
 
 label.star {
   float: right;
-  padding: 10px;
+  padding: 5px;
   font-size: 24px;
-  color: #444;
+  color: #DFDCE3;
   transition: all .3s;
 }
 
 input.star:checked ~ label.star:before {
-  content: '\f005';
-  color: #F62;
-  text-shadow: 0 0 20px #952;
+  content: '\f111';
+  color: #3d6cb0;
+  text-shadow: 0 0 20px #DFDCE3;
+  ;
   transition: all .25s;
 }
 
@@ -83,15 +139,16 @@ label.star:hover {
 }
 
 label.star:before {
-  content: '\f006';
+  content: '\f10c';
   font-family: FontAwesome;
 }
 
 .pro {
-  background-color: #000;
+  background-color: #DFDCE3;
+  ;
   height: 25px;
   padding: 5px;
-  width: 150px;
+  width: auto;
   margin: 5px 0;
   border-radius: 3px;
 }
@@ -101,34 +158,23 @@ label.star:before {
   display: inline-block;
   height: 100%;
   border-radius: 1px;
+  background: #006BC4;
   margin-bottom: 20px;
-  transition: width .5s ease-in-out;
-  background-image: linear-gradient(#984B43, #062F4F);
-}
-
-.pro span::after {
-  content: '';
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: #fff;
-  border-radius: 1px;
+  /*  transition: width .5s ease-in-out;*/
   animation: animate-shine 3s ease-out infinite;
 }
 
+
 @keyframes animate-shine {
   0% {
-    opacity: 0;
+    /*    opacity: 0;*/
     width: 0;
   }
   50% {
-    opacity: .5;
+    /*    opacity: .5;*/
   }
   100% {
-    opacity: 0;
-    width: 95%;
+    /*    opacity: 0;*/
+    /*    width: 100%;*/
   }
 }

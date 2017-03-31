@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <title>simplePage</title>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 
@@ -19,149 +19,210 @@
           <div class="center-block">
             <div class="inner-circle"></div>
           </div>
-          <p class="text-center text-uppercase name">name here</p>
-          <p class="text-center text-uppercase name" style="line-height:8px;"><strong>surname</strong></p>
-          <p class="text-center text-uppercase name" style="font-size:16px;"><strong>graphic designer</strong></p>
+          <p class="text-center text-uppercase name" style="margin-top:15px;">name here</p>
+          <p class="text-center text-uppercase name" style="line-height:8px; font-size:32px; font-family:'MyriadProBold';">surname</p>
+          <p class="text-center text-uppercase name" style="font-size:13px; font-family:'MyriadProBold';">graphic designer</p>
           <div class="profile">
 
-            <h1 class="text-uppercase education"><i class="fa fa-user">profile</i></h1>
-            <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aut aliquid esse earum provident praesentium dignissimos eveniet tenetur alias accusamus reprehenderit ratione quia temporibus at, animi quo suscipit quam magni explicabo doloremque, illo minus possimus asperiores. Laudantium perspiciatis expedita atque eos in quibusdam itaque necessitatibus vitae repudiandae deleniti distinctio eius eveniet porro voluptatibus vero harum, sed suscipit velit, illo iusto neque eaque sapiente quia soluta! Aperiam fuga, reprehenderit pariatur. Blanditiis, at, tempore placeat doloremque veritatis sequi velit pariatur enim, quisquam fuga non itaque nesciunt animi magnam distinctio consequatur consequuntur consectetur eveniet cum quibusdam odio. Adipisci sapiente, ipsam sequi quam ab.</p>
+            <h1 class="text-uppercase education line"><img src="img/profile.jpg" alt="profile img" style="margin-right: 10px;">profile</h1>
+            <p class="text-left" style="margin-right: 95px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. </p>
           </div>
           <div class="contact">
-            <h1 class="text-uppercase education"><i class="fa fa-phone">contact</i></h1>
-            <dl class="dl-horizontal">
-              <dt class="text-uppercase"><span style="color:#0B3C5D;">address</span></dt>
-              <dd>Main Street, City</dd>
-              <dt class="text-uppercase"><span style="color:#0B3C5D;">email</span></dt>
-              <dd>contact@domain.com</dd>
-              <dt class="text-uppercase"><span style="color:#0B3C5D;">phone</span></dt>
-              <dd>555-555-555</dd>
-              <dt class="text-uppercase"><span style="color:#0B3C5D;">website</span></dt>
-              <dd>www.yourweb.com</dd>
-            </dl>
+            <h1 class="text-uppercase education line"><img src="img/contact.jpg" alt="contact img" style="margin-right: 10px;">contact</h1>
+            <div class="row">
+              <div class="col-md-2">
+                <p class="text-uppercase pColor">address</p>
+                <p class="text-uppercase pColor">email</p>
+                <p class="text-uppercase pColor">phone</p>
+                <p class="text-uppercase pColor">website</p>
+              </div>
+              <div class="col-md-10">
+                <p>Main Street, City</p>
+                <p>contact@domain.com</p>
+                <p>555-555-555</p>
+                <p>www.yourweb.com</p>
+              </div>
+            </div>
+
           </div>
           <div class="skills">
-            <h1 class="text-uppercase education"><i class="fa fa-bell">skills</i></h1>
-            <p class="text-uppercase text-center"><strong>creative</strong></p>
+            <h1 class="text-uppercase education line"><img src="img/skills.jpg" alt="skills img" style="margin-right:10px;">skills</h1>
+            <p class="text-uppercase text-center" style="font-family:'MyriadProBold';">creative</p>
             <div class="stars">
               <form action="#">
-                <input class="star star-5" id="star-5" type="radio" name="star" />
-                <label class="star star-5" for="star-5"></label>
-                <input class="star star-4" id="star-4" type="radio" name="star" />
-                <label class="star star-4" for="star-4"></label>
+                <input class="star star-5" id="star-1" type="radio" name="star" />
+                <label class="star star-5" for="star-1"></label>
+                <input class="star star-4" id="star-2" type="radio" name="star" />
+                <label class="star star-4" for="star-2"></label>
                 <input class="star star-3" id="star-3" type="radio" name="star" />
                 <label class="star star-3" for="star-3"></label>
-                <input class="star star-2" id="star-2" type="radio" name="star" />
-                <label class="star star-2" for="star-2"></label>
-                <input class="star star-1" id="star-1" type="radio" name="star" />
-                <label class="star star-1" for="star-1"></label>
+                <input class="star star-2" id="star-4" type="radio" name="star" />
+                <label class="star star-2" for="star-4"></label>
+                <input class="star star-1" id="star-5" type="radio" name="star" />
+                <label class="star star-1" for="star-5"></label>
+                <input class="star star-5" id="star-6" type="radio" name="star" />
+                <label class="star star-5" for="star-6"></label>
+                <input class="star star-5" id="star-7" type="radio" name="star" />
+                <label class="star star-5" for="star-7"></label>
+                <input class="star star-5" id="star-8" type="radio" name="star" />
+                <label class="star star-5" for="star-8"></label>
+                <input class="star star-5" id="star-9" type="radio" name="star" />
+                <label class="star star-5" for="star-9"></label>
+                <input class="star star-5" id="star-10" type="radio" name="star" />
+                <label class="star star-5" for="star-10"></label>
+                <input class="star star-5" id="star-11" type="radio" name="star" />
+                <label class="star star-5" for="star-11"></label>
+                <input class="star star-5" id="star-12" type="radio" name="star" />
+                <label class="star star-5" for="star-12"></label>
               </form>
             </div>
-            <p class="text-uppercase text-center"><strong>teamwork</strong></p>
+            <p class="text-uppercase text-center" style="font-family:'MyriadProBold';">teamwork</p>
             <div class="stars">
               <form action="#">
-                <input class="star star-5" id="star-51" type="radio" name="star" />
-                <label class="star star-5" for="star-51"></label>
-                <input class="star star-4" id="star-41" type="radio" name="star" />
-                <label class="star star-4" for="star-41"></label>
+                <input class="star star-5" id="star-1_1" type="radio" name="star" />
+                <label class="star star-5" for="star-1_1"></label>
+                <input class="star star-4" id="star-21" type="radio" name="star" />
+                <label class="star star-4" for="star-31"></label>
                 <input class="star star-3" id="star-31" type="radio" name="star" />
                 <label class="star star-3" for="star-31"></label>
-                <input class="star star-2" id="star-21" type="radio" name="star" />
-                <label class="star star-2" for="star-21"></label>
-                <input class="star star-1" id="star-11" type="radio" name="star" />
-                <label class="star star-1" for="star-11"></label>
+                <input class="star star-2" id="star-41" type="radio" name="star" />
+                <label class="star star-2" for="star-41"></label>
+                <input class="star star-1" id="star-51" type="radio" name="star" />
+                <label class="star star-1" for="star-51"></label>
+                <input class="star star-5" id="star-61" type="radio" name="star" />
+                <label class="star star-5" for="star-61"></label>
+                <input class="star star-5" id="star-71" type="radio" name="star" />
+                <label class="star star-5" for="star-71"></label>
+                <input class="star star-5" id="star-81" type="radio" name="star" />
+                <label class="star star-5" for="star-81"></label>
+                <input class="star star-5" id="star-91" type="radio" name="star" />
+                <label class="star star-5" for="star-91"></label>
+                <input class="star star-5" id="star-101" type="radio" name="star" />
+                <label class="star star-5" for="star-101"></label>
+                <input class="star star-5" id="star-111" type="radio" name="star" />
+                <label class="star star-5" for="star-111"></label>
+                <input class="star star-5" id="star-121" type="radio" name="star" />
+                <label class="star star-5" for="star-121"></label>
               </form>
             </div>
-            <p class="text-uppercase text-center"><strong>innovate</strong></p>
+            <p class="text-uppercase text-center" style="font-family:'MyriadProBold';">innovate</p>
             <div class="stars">
               <form action="#">
-                <input class="star star-5" id="star-52" type="radio" name="star" />
-                <label class="star star-5" for="star-52"></label>
-                <input class="star star-4" id="star-42" type="radio" name="star" />
-                <label class="star star-4" for="star-42"></label>
+                <input class="star star-5" id="star-1_2" type="radio" name="star" />
+                <label class="star star-5" for="star-12"></label>
+                <input class="star star-4" id="star-22" type="radio" name="star" />
+                <label class="star star-4" for="star-22"></label>
                 <input class="star star-3" id="star-32" type="radio" name="star" />
                 <label class="star star-3" for="star-32"></label>
-                <input class="star star-2" id="star-22" type="radio" name="star" />
-                <label class="star star-2" for="star-22"></label>
-                <input class="star star-1" id="star-12" type="radio" name="star" />
-                <label class="star star-1" for="star-12"></label>
+                <input class="star star-2" id="star-42" type="radio" name="star" />
+                <label class="star star-2" for="star-42"></label>
+                <input class="star star-1" id="star-52" type="radio" name="star" />
+                <label class="star star-1" for="star-52"></label>
+                <input class="star star-5" id="star-62" type="radio" name="star" />
+                <label class="star star-5" for="star-62"></label>
+                <input class="star star-5" id="star-72" type="radio" name="star" />
+                <label class="star star-5" for="star-72"></label>
+                <input class="star star-5" id="star-82" type="radio" name="star" />
+                <label class="star star-5" for="star-82"></label>
+                <input class="star star-5" id="star-92" type="radio" name="star" />
+                <label class="star star-5" for="star-92"></label>
+                <input class="star star-5" id="star-102" type="radio" name="star" />
+                <label class="star star-5" for="star-102"></label>
+                <input class="star star-5" id="star-112" type="radio" name="star" />
+                <label class="star star-5" for="star-112"></label>
+                <input class="star star-5" id="star-122" type="radio" name="star" />
+                <label class="star star-5" for="star-122"></label>
               </form>
             </div>
-            <p class="text-uppercase text-center"><strong>communication</strong></p>
+            <p class="text-uppercase text-center" style="font-family:'MyriadProBold';">communication</p>
             <div class="stars">
               <form action="#">
-                <input class="star star-5" id="star-53" type="radio" name="star" />
-                <label class="star star-5" for="star-53"></label>
-                <input class="star star-4" id="star-43" type="radio" name="star" />
-                <label class="star star-4" for="star-43"></label>
+                <input class="star star-5" id="star-13" type="radio" name="star" />
+                <label class="star star-5" for="star-13"></label>
+                <input class="star star-4" id="star-23" type="radio" name="star" />
+                <label class="star star-4" for="star-23"></label>
                 <input class="star star-3" id="star-33" type="radio" name="star" />
                 <label class="star star-3" for="star-33"></label>
-                <input class="star star-2" id="star-23" type="radio" name="star" />
-                <label class="star star-2" for="star-23"></label>
-                <input class="star star-1" id="star-13" type="radio" name="star" />
-                <label class="star star-1" for="star-13"></label>
+                <input class="star star-2" id="star-43" type="radio" name="star" />
+                <label class="star star-2" for="star-43"></label>
+                <input class="star star-1" id="star-53" type="radio" name="star" />
+                <label class="star star-1" for="star-53"></label>
+                <input class="star star-5" id="star-63" type="radio" name="star" />
+                <label class="star star-5" for="star-63"></label>
+                <input class="star star-5" id="star-73" type="radio" name="star" />
+                <label class="star star-5" for="star-73"></label>
+                <input class="star star-5" id="star-83" type="radio" name="star" />
+                <label class="star star-5" for="star-83"></label>
+                <input class="star star-5" id="star-93" type="radio" name="star" />
+                <label class="star star-5" for="star-93"></label>
+                <input class="star star-5" id="star-103" type="radio" name="star" />
+                <label class="star star-5" for="star-103"></label>
+                <input class="star star-5" id="star-113" type="radio" name="star" />
+                <label class="star star-5" for="star-113"></label>
+                <input class="star star-5" id="star-123" type="radio" name="star" />
+                <label class="star star-5" for="star-123"></label>
               </form>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7">
           <div class="edu">
-            <h1 class="text-uppercase education"><i class="fa fa-star">education</i></h1>
+            <h1 class="text-uppercase education line"><img src="img/education.jpg" alt="education img" style="margin-right: 10px;">education</h1>
 
             <ul class="education-list">
-              <li class="text-uppercase edu-type-1"><span style="color:cadetblue;">master degree</span> //feb2011-jun20114</li>
-              <li class="text-uppercase list-unstyled edu-type edu-type-1">university name</li>
-              <li class="edu-type list-unstyled">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores consequuntur, hic libero, assumenda ut a nesciunt voluptatem omnis perferendis veniam dolorum expedita. Asperiores omnis dolor animi laborum, enim. Nisi esse minus pariatur!</li>
-              <li class="text-uppercase edu-type-1"><span style="color:cadetblue;">master degree</span> //feb2011-jun20114</li>
-              <li class="text-uppercase list-unstyled edu-type edu-type-1">university name</li>
-              <li class="edu-type list-unstyled">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores consequuntur, hic libero, assumenda ut a nesciunt voluptatem omnis perferendis veniam dolorum expedita. Asperiores omnis dolor animi laborum, enim. Nisi esse minus pariatur!</li>
-              <li class="text-uppercase edu-type-1"><span style="color:cadetblue;">master degree</span> //feb2011-jun20114</li>
-              <li class="text-uppercase list-unstyled edu-type edu-type-1">university name</li>
-              <li class="edu-type list-unstyled">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores consequuntur, hic libero, assumenda ut a nesciunt voluptatem omnis perferendis veniam dolorum expedita. Asperiores omnis dolor animi laborum, enim. Nisi esse minus pariatur!</li>
-              <li class="text-uppercase edu-type-1"><span style="color:cadetblue;">master degree</span> //feb2011-jun20114</li>
-              <li class="text-uppercase list-unstyled edu-type edu-type-1">university name</li>
-              <li class="edu-type list-unstyled">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores consequuntur, hic libero, assumenda ut a nesciunt voluptatem omnis perferendis veniam dolorum expedita. Asperiores omnis dolor animi laborum, enim. Nisi esse minus pariatur!</li>
+              <li class="text-uppercase edu-type-1"><span style="color:#006CB4; font-family:'MyriadProBold'; padding-right: 10px;">master degree</span> //feb2011-jun20114</li>
+              <li class="text-uppercase list-unstyled edu-type-1">university name</li>
+              <li class="edu-type list-unstyled" style="font-family:'MyriadProRegular';">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores consequuntur, hic libero, assumenda ut a nesciunt voluptatem omnis perferendis veniam dolorum expedita. Asperiores omnis dolor animi laborum, enim. Nisi esse minus pariatur!</li>
+              <li class="text-uppercase edu-type-1"><span style="color:#006CB4; font-family:'MyriadProBold'; padding-right: 10px;">master degree</span> //feb2011-jun20114</li>
+              <li class="text-uppercase list-unstyled edu-type-1">university name</li>
+              <li class="edu-type list-unstyled" style="font-family:'MyriadProRegular';">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores consequuntur, hic libero, assumenda ut a nesciunt voluptatem omnis perferendis veniam dolorum expedita. Asperiores omnis dolor animi laborum, enim. Nisi esse minus pariatur!</li>
+              <li class="text-uppercase edu-type-1"><span style="color:#006CB4; font-family:'MyriadProBold'; padding-right: 10px;">master degree</span> //feb2011-jun20114</li>
+              <li class="text-uppercase list-unstyled edu-type-1">university name</li>
+              <li class="edu-type list-unstyled" style="font-family:'MyriadProRegular';">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores consequuntur, hic libero, assumenda ut a nesciunt voluptatem omnis perferendis veniam dolorum expedita. Asperiores omnis dolor animi laborum, enim. Nisi esse minus pariatur!</li>
+              <li class="text-uppercase edu-type-1"><span style="color:#006CB4; font-family:'MyriadProBold'; padding-right: 10px;">master degree</span> //feb2011-jun20114</li>
+              <li class="text-uppercase list-unstyled edu-type-1">university name</li>
+              <li class="edu-type list-unstyled" style="font-family:'MyriadProRegular';">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores consequuntur, hic libero, assumenda ut a nesciunt voluptatem omnis perferendis veniam dolorum expedita. Asperiores omnis dolor animi laborum, enim. Nisi esse minus pariatur!</li>
             </ul>
           </div>
           <div class="experience">
-            <h1 class="text-uppercase education"><i class="fa fa-suitcase">experience</i></h1>
+            <h1 class="text-uppercase education line"><img src="img/experience.jpg" alt="experience img" style="margin-right: 10px;">experience</h1>
             <ul class="education-list">
-              <li class="text-uppercase edu-type-1"><strong>company name</strong> //feb2011-jun20114</li>
-              <li class="text-uppercase list-unstyled edu-type edu-type-1">your job here</li>
+              <li class="text-uppercase edu-type-1"><span style="font-family:'MyriadProBold'; padding-right: 10px;">company name</span> //feb2011-jun20114</li>
+              <li class="text-uppercase list-unstyled edu-type-1">your job here</li>
               <li class="edu-type list-unstyled">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores consequuntur, hic libero, assumenda ut a nesciunt voluptatem omnis perferendis veniam dolorum expedita. Asperiores omnis dolor animi laborum, enim. Nisi esse minus pariatur!</li>
-              <li class="text-uppercase edu-type-1"><strong>company name</strong> //feb2011-jun20114</li>
-              <li class="text-uppercase list-unstyled edu-type edu-type-1">your job here</li>
+              <li class="text-uppercase edu-type-1"><span style="font-family:'MyriadProBold'; padding-right: 10px;">company name</span> //feb2011-jun20114</li>
+              <li class="text-uppercase list-unstyled edu-type-1">your job here</li>
               <li class="edu-type list-unstyled">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores consequuntur, hic libero, assumenda ut a nesciunt voluptatem omnis perferendis veniam dolorum expedita. Asperiores omnis dolor animi laborum, enim. Nisi esse minus pariatur!</li>
-              <li class="text-uppercase edu-type-1"><strong>company name</strong> //feb2011-jun20114</li>
-              <li class="text-uppercase list-unstyled edu-type edu-type-1">your job here</li>
+              <li class="text-uppercase edu-type-1"><span style="font-family:'MyriadProBold'; padding-right: 10px;">company name</span> //feb2011-jun20114</li>
+              <li class="text-uppercase list-unstyled edu-type-1">your job here</li>
               <li class="edu-type list-unstyled">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores consequuntur, hic libero, assumenda ut a nesciunt voluptatem omnis perferendis veniam dolorum expedita. Asperiores omnis dolor animi laborum, enim. Nisi esse minus pariatur!</li>
             </ul>
           </div>
           <div class="software">
-            <h1 class="text-uppercase education"><i class="fa fa-desktop">software</i></h1>
+            <h1 class="text-uppercase education line"><img src="img/software.jpg" alt="software img" style="margin-right: 10px;">software</h1>
             <div class="row">
               <div class="col-md-6">
                 <p class="text-uppercase"><strong>photoshop</strong></p>
                 <div class="pro">
-                  <span style="width:60%"></span>
+                  <span style="width:90%"></span>
                 </div>
                 <p class="text-uppercase"><strong>illustrator</strong></p>
                 <div class="pro">
-                  <span style="width:80%"></span>
+                  <span style="width:60%"></span>
                 </div>
                 <p class="text-uppercase"><strong>indesign</strong></p>
                 <div class="pro">
-                  <span style="width:30%"></span>
+                  <span style="width:40%"></span>
                 </div>
               </div>
               <div class="col-md-6">
                 <p class="text-uppercase"><strong>dreamweaver</strong></p>
                 <div class="pro">
-                  <span style="width:90%"></span>
+                  <span style="width:80%"></span>
                 </div>
                 <p class="text-uppercase"><strong>after effects</strong></p>
                 <div class="pro">
-                  <span style="width:40%"></span>
+                  <span style="width:45%"></span>
                 </div>
                 <p class="text-uppercase"><strong>html5&amp;css3</strong></p>
                 <div class="pro">
@@ -175,7 +236,7 @@
       </div>
     </div>
   </div>
-  <p> 
+  <p>
 </body>
 
 </html>
